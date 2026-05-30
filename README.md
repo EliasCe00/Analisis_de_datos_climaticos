@@ -31,3 +31,23 @@ Se utiliza un dataset de temperaturas globales históricas en formato CSV.
 * Datos provenientes del análisis climático GISTEMP.
 
 Los archivos utilizados se encuentran dentro de la carpeta `/datos`.
+
+
+## Funcionalidades del script
+
+El programa permite:
+
+- Importar datos desde un archivo CSV.
+- Procesar información climática.
+- Calcular:
+  - temperatura promedio
+  - temperatura máxima
+  - temperatura mínima
+  - promedio de precipitaciones
+- Generar un gráfico de evolución de temperatura.
+- Guardar resultados automáticamente en la carpeta /resultados.
+
+## Mejoras implementadas
+
+- Se agregaron comentarios técnicos para explicar la lógica utilizada en distintas partes del código.
+
